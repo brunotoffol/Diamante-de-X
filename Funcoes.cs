@@ -15,7 +15,7 @@ namespace Diamante_de_X
             int numeroDeX;
             while (true)
             {
-
+                                
                 Console.Clear();
                 Console.WriteLine("---------------------------------------");
                 Console.Write("Insira um valor ímpar para realizar o desenho do diamante: ");
@@ -25,14 +25,16 @@ namespace Diamante_de_X
                 if (!int.TryParse(entradaNumeroUsuario, out numeroDeX))
                 {
                     Console.WriteLine("---------------------------------------");
-                    Console.WriteLine("Por favor, utilize apenas números.");
+                    Console.Write("Por favor, utilize apenas números. Pressione ENTER para inserir um número novamente.");                    
+                    Console.ReadLine();
                     continue;
                 }
 
-                else if (numeroDeX % 2 == 0)
+                else if (numeroDeX <= 1 || numeroDeX % 2 == 0)
                 {
                     Console.WriteLine("---------------------------------------");
-                    Console.WriteLine("Valor inserido é par! Insira um número novamente: ");
+                    Console.Write("Valor inserido é par ou 1! Pressione ENTER para inserir um número novamente.");
+                    Console.ReadLine();
                     continue;
                 }
                 else
