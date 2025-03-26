@@ -1,8 +1,8 @@
 # Diamante de X
 
-## Introdução
+## IntroduÃ§Ã£o
 
-Um programa criado como Trabalho Avaliativo da Academia do Programador 2025, onde é inserido um valor ímpar e depois desenha um ""Diamante"" (Losango) com os símbolos "X na tela."
+Um programa criado como Trabalho Avaliativo da Academia do Programador 2025, onde Ã© inserido um valor Ã­mpar e depois Ã© apresentado um desenho de um ""Diamante"" (Losango) com os sÃ­mbolos "X" na tela.
 
 ### Exemplo
 
@@ -10,18 +10,18 @@ Um programa criado como Trabalho Avaliativo da Academia do Programador 2025, ond
 
 ### Funcionalidades
 
-- Validação dos valores inseridos em ímpar e caracteres númericos
+- ValidaÃ§Ã£o dos valores inseridos em Ã­mpar e caracteres nÃºmericos
 - Cria um desenho no formato de losango com o valor informado
 
 ### Como utilizar:
-1. Clone o repositório ou baixe o código fonte
-2. Abre o terminal ou prompt de comando e navegue até a pasta raiz
-3. Utilize o comando abaixo para restaurar as depências do projeto
+1. Clone o repositÃ³rio ou baixe o cÃ³digo fonte
+2. Abre o terminal ou prompt de comando e navegue atÃ© a pasta raiz
+3. Utilize o comando abaixo para restaurar as depÃªncias do projeto
 
 ```
 dotnet restore
 ```
-4. Em seguida, compile a solução utilizando o comando:
+4. Em seguida, compile a soluÃ§Ã£o utilizando o comando:
 ```
 dotnet build --configuration Release
 ```
@@ -29,11 +29,11 @@ dotnet build --configuration Release
 ```
 dotnet run --project Diamante de X
 ```
-6. Para executar o arquivo compilado, navegue até a pasta ./Diamante_de_X.ConsoleApp/bin/Release/net8.0/ e execute o arquivo:
+6. Para executar o arquivo compilado, navegue atÃ© a pasta ./Diamante_de_X.ConsoleApp/bin/Release/net8.0/ e execute o arquivo:
 ```
 Diamante de X.exe
 ```
 
 ## Requisitos
 
-- .NET SDK (recomendado .NET 8.0 ou superior) para compilação e execução do projeto.
+- .NET SDK (recomendado .NET 8.0 ou superior) para compilaÃ§Ã£o e execuÃ§Ã£o do projeto.
