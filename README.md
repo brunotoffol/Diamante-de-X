@@ -6,7 +6,7 @@ Um programa criado como Trabalho Avaliativo da Academia do Programador 2025, ond
 
 ### Exemplo
 
-![]()
+![](https://i.imgur.com/QeWtfwr.gif)
 
 ### Funcionalidades
 

@@ -38,8 +38,7 @@ namespace Diamante_de_X
                     return numeroDeX;
 
             }
-        }
-       
+        }       
         //Loops que realizam o desenho do diamante de X
         static public void DesenhoDiamante(int numeroDeX)
         {
