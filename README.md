@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Um programa criado como Trabalho Avaliativo da Academia do Programador 2025, onde é inserido um valor ímpar e depois é apresentado um desenho de um ""Diamante"" (Losango) com os símbolos "X" na tela.
+Um programa criado como Trabalho Avaliativo da Academia do Programador 2025, onde é inserido um valor ímpar e depois é apresentado um desenho no formato de "Diamante" (Losango) com os símbolos "X" na tela.
 
 ### Exemplo
 
