@@ -18,7 +18,7 @@ namespace Diamante_de_X
 
                 Console.WriteLine("---------------------------------------");
                 Console.Write("Insira um valor ímpar para realizar o desenho do diamante: ");
-                string entradaNumeroUsuario = Console.ReadLine();
+                string entradaNumeroUsuario = Console.ReadLine()!;
 
 
                 if (!int.TryParse(entradaNumeroUsuario, out numeroDeX))
@@ -47,6 +47,11 @@ namespace Diamante_de_X
             {
                 for (int j = 1; j <= i; j++)
                 {
+                    Console.Write("");
+                }
+
+                for (int j = 1; j <= i; j++)
+                {
                     Console.Write("X");
                 }
                 Console.WriteLine();
@@ -56,8 +61,13 @@ namespace Diamante_de_X
             {
                 for (int j = 1; j <= i; j++)
                 {
+                    Console.Write("");
+                }
+                for (int j = 1; j <= i; j++)
+                {
                     Console.Write("X");
                 }
+
                 Console.WriteLine();
             }
         }
