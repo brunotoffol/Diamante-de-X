@@ -9,7 +9,6 @@ namespace Diamante_de_X
     {
         static void Main(string[] args)
         {
-
             while (true)
             {
                 //Entrada do número para criação do triângulo e validação
@@ -21,10 +20,8 @@ namespace Diamante_de_X
                 Console.WriteLine("---------------------------------------");
                 Console.Write("Pressione ENTER para reiniciar.");
                 Console.ReadLine();
-            }
-            
-
-            
+            }           
+                       
         }
     }
 }
